@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "converter-to-mp3"
+version = "0.1.0"
+description = "A converter from youtube to mp3"
+authors = ["Gerardo Rios <gerardo@kavia.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.6"
+yt-dlp = "^2024.12.6"
+pytest = "^8.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
